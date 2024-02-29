@@ -6,6 +6,8 @@ In this project, I used SQL to analyze the data of Phoenix employee compensation
 
 **Dataset Source**: [City of Phoenix Open Data - Employee Compensation](https://www.phoenixopendata.com/dataset/employee-compensation/resource/45ba7217-c1cf-4859-a40f-2c7f3220f5ba)
 
+![image](https://github.com/mmattos2000/Salaries-of-Phoenix-Employees/assets/99051624/c6d26ff6-dc94-41ba-ae74-1273fdd0dcdf)
+
 ### Key Questions Explored:
 
 1. **Overall Salary Analysis:**
