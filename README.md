@@ -55,5 +55,5 @@ In this project, I used SQL to analyze the data of Phoenix employee compensation
     - Identify the top 5 job titles with the highest salaries and the respective departments offering those salaries.
 
 ### Conclusion:
-This project provides comprehensive insights into Phoenix employee salaries, enabling deeper understanding and informed decision-making regarding compensation strategies and resource allocation within the city's workforce.
+This project provides insights into Phoenix employee salaries, enabling deeper understanding and informed decision-making regarding compensation strategies and resource allocation within the city's workforce.
 
