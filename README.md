@@ -1,49 +1,59 @@
 # Salaries-of-Phoenix-Employees
 
-For this project, I used SQL to analyze the salaries of Phoenix employees, using a dataset that I found from The city of Phoenix Open Data website. 
+Title: **Analyzing Phoenix Employee Salaries**
 
-Dataset: https://www.phoenixopendata.com/dataset/employee-compensation/resource/45ba7217-c1cf-4859-a40f-2c7f3220f5ba
+In this project, I used SQL to analyze the data of Phoenix employee compensation, using a dataset sourced from The City of Phoenix Open Data website.
 
-I wanted to find answers for the following questions:
+**Dataset Source**: [City of Phoenix Open Data - Employee Compensation](https://www.phoenixopendata.com/dataset/employee-compensation/resource/45ba7217-c1cf-4859-a40f-2c7f3220f5ba)
 
-What is the average salary for all the jobs in the dataset? 
+### Key Questions Explored:
 
-What is the average salary for all the jobs in the dataset? Exclude null and zero values for regular pay?
+1. **Overall Salary Analysis:**
+   - What is the average salary across all job positions?
 
-What is the highest salary in the dataset, and which job role does it correspond to?
+2. **Excluding Null and Zero Pay:**
+   - What is the average salary across all job positions, excluding null and zero regular pay values?
 
-What is the average salary for a police officer?
+3. **Highest Salary Investigation:**
+   - What is the highest salary recorded in the dataset, and which job role does it correspond to?
 
-What is the average salary for a police officer? (Excluding null and zero values)
+4. **Specific Job Role Analysis (e.g., Police Officer):**
+   - What is the average salary for a police officer?
+   - What is the average salary for a police officer, excluding null and zero values?
 
-What is the number of jobs available for each job title?
+5. **Job Distribution Insights:**
+   - How many jobs are available for each job title?
+   - Which job title boasts the highest number of employees?
 
-Which job title has the most employees?
+6. **Departmental Breakdown:**
+   - What is the total salary expenditure within the Police Department?
+   - Which department offers the most job opportunities?
 
-What is the total salary paid for all jobs in the Police Department?
+7. **Detailed Salary Examination:**
+   - Identify the top 5 highest-paying job titles along with their respective average salaries.
 
-What are the top 5 highest paying job titles and their corresponding average salaries?
+8. **Employee Termination Analysis:**
+   - How many employees were terminated, and who were they?
 
-What department has the most jobs available?
+9. **Overtime Pay Exploration:**
+   - Who are the top 5 employees with the highest overtime pay?
 
-From the police department, what job title has the most employees?
+10. **Unique Job Titles:**
+    - How many distinct job titles are represented in the dataset?
 
-How many employees were terminated?
+11. **Job Title and Departmental Analysis:**
+    - What is the average salary for each job title, and how many jobs are available for each title?
+    - What are the top 5 job titles with the highest total salaries, and how many jobs are available for each?
 
-What employees were terminated?
+12. **Departmental Salary Overview:**
+    - What is the average salary for each job title within each department, and how many jobs are available in each department?
 
-What are the top 5 employees with the highest salaries?
+13. **Hiring Insights:**
+    - Retrieve details of employees hired in 2005, including their department, job title, and salary.
 
-Who are the top 5 employees with the most overtime pay?
+14. **Highest Salary Offer by Department:**
+    - Identify the top 5 job titles with the highest salaries and the respective departments offering those salaries.
 
-How many unique job titles are there?
+### Conclusion:
+This project provides comprehensive insights into Phoenix employee salaries, enabling deeper understanding and informed decision-making regarding compensation strategies and resource allocation within the city's workforce.
 
-What is the average salary for each job title, and what is the total number of jobs available for each job title?
-
-What are the top 5 job titles with the highest total salaries, and what is the total number of jobs available for each job title?
-
-What is the average salary for each job title in each department, and what is the total number of jobs available in each department?
-
-Return the employees that were hired in 2005. Include their department,job title, and salary
-
-What are the top 5 job titles with the highest salaries, and what is the name of the department that offers the highest salary for each job title?
