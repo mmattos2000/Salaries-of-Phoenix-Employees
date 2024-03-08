@@ -1,6 +1,5 @@
 # Salaries-of-Phoenix-Employees
 
-Title: **Analyzing Phoenix Employee Salaries**
 
 In this project, I used SQL to analyze the data of Phoenix employee compensation, using a dataset sourced from The City of Phoenix Open Data website.
 
