@@ -1,60 +1,71 @@
-# Salaries-of-Phoenix-Employees
-
-
-In this project, I used SQL to analyze the data of Phoenix employee compensation, using a dataset sourced from The City of Phoenix Open Data website.
-
-**Dataset Source**: [City of Phoenix Open Data - Employee Compensation](https://www.phoenixopendata.com/dataset/employee-compensation/resource/45ba7217-c1cf-4859-a40f-2c7f3220f5ba)
+# Salaries of Phoenix Employees
 
 ![image](https://github.com/mmattos2000/Salaries-of-Phoenix-Employees/assets/99051624/c6d26ff6-dc94-41ba-ae74-1273fdd0dcdf)
 
-### Key Questions Explored:
+**Dataset Source**: [City of Phoenix Open Data - Employee Compensation](https://www.phoenixopendata.com/dataset/employee-compensation/resource/45ba7217-c1cf-4859-a40f-2c7f3220f5ba)
 
-1. **Overall Salary Analysis:**
-   - What is the average salary across all job positions?
 
-2. **Excluding Null and Zero Pay:**
-   - What is the average salary across all job positions, excluding null and zero regular pay values?
+This project analyzes employee compensation data from the city of Phoenix. The provided SQL code performs various queries and analyses to gain insights into employee salaries, job titles, departments, and other related information.
 
-3. **Highest Salary Investigation:**
-   - What is the highest salary recorded in the dataset, and which job role does it correspond to?
+## Dataset
 
-4. **Specific Job Role Analysis (e.g., Police Officer):**
-   - What is the average salary for a police officer?
-   - What is the average salary for a police officer, excluding null and zero values?
+The dataset used for this analysis contains information about employee compensation in the city of Phoenix, including job titles, regular pay, overtime pay, hire dates, termination dates, departments, and more.
 
-5. **Job Distribution Insights:**
-   - How many jobs are available for each job title?
-   - Which job title boasts the highest number of employees?
+### Description of SQL Queries:
 
-6. **Departmental Breakdown:**
-   - What is the total salary expenditure within the Police Department?
-   - Which department offers the most job opportunities?
+1. **Retrieve All Data from Phoenix Employee Compensation Table:**
+   - Fetches all columns from the Phoenix Employee Compensation table.
 
-7. **Detailed Salary Examination:**
-   - Identify the top 5 highest-paying job titles along with their respective average salaries.
+2. **Data Cleaning:**
+   - Removes a specific column ('column12') from the table.
 
-8. **Employee Termination Analysis:**
-   - How many employees were terminated, and who were they?
+3. **Data Quality Check:**
+   - Checks for null or zero values for salary (Regular Pay) in the Phoenix Employee Compensation table.
 
-9. **Overtime Pay Exploration:**
-   - Who are the top 5 employees with the highest overtime pay?
+4. **Statistical Analysis:**
+   - Calculates the average salary for all jobs in the dataset, considering all records.
+   - Calculates the average salary for all jobs, excluding null and zero values for regular pay.
 
-10. **Unique Job Titles:**
-    - How many distinct job titles are represented in the dataset?
+5. **Salary Analysis:**
+   - Identifies the highest salary in the dataset and its corresponding job role.
+   - Calculates the average salary for a police officer, both including and excluding null and zero values for regular pay.
+   - Finds the top 5 highest paying job titles and their corresponding average salaries.
 
-11. **Job Title and Departmental Analysis:**
-    - What is the average salary for each job title, and how many jobs are available for each title?
-    - What are the top 5 job titles with the highest total salaries, and how many jobs are available for each?
+6. **Department and Job Title Analysis:**
+   - Counts the number of jobs available for each job title.
+   - Finds the job title with the most employees.
+   - Calculates the total salary paid for all jobs in the Police Department.
+   - Determines the department with the most jobs available.
+   - Identifies the job title with the most employees from the Police Department.
 
-12. **Departmental Salary Overview:**
-    - What is the average salary for each job title within each department, and how many jobs are available in each department?
+7. **Employee Status Analysis:**
+   - Counts the number of terminated employees and retrieves their names.
 
-13. **Hiring Insights:**
-    - Retrieve details of employees hired in 2005, including their department, job title, and salary.
+8. **Top Performers Analysis:**
+   - Finds the top 5 employees with the highest salaries and the most overtime pay.
 
-14. **Highest Salary Offer by Department:**
-    - Identify the top 5 job titles with the highest salaries and the respective departments offering those salaries.
+9. **Data Exploration:**
+   - Counts the number of unique job titles.
+   - Calculates the average salary for each job title and the total number of jobs available for each job title.
+   - Finds the top 5 job titles with the highest total salaries and the total number of jobs available for each job title.
+   - Calculates the average salary for each job title in each department and the total number of jobs available in each department.
+   - Returns employees hired in 2005, including their department, job title, and salary.
+   - Finds the top 5 job titles with the highest salaries and the name of the department that offers the highest salary for each job title.
 
-### Conclusion:
-This project provides insights into Phoenix employee salaries, enabling deeper understanding and informed decision-making regarding compensation strategies and resource allocation within the city's workforce.
+## Usage
 
+1. Ensure you have access to a database containing the Phoenix employee compensation data.
+2. Execute the SQL queries in your database environment.
+3. Analyze the results to gain insights into employee salaries, job titles, departments, and related information.
+
+Feel free to modify the queries or adapt them to suit your specific analysis needs.
+
+## Contributing
+
+Contributions to enhance the analysis or add new insights are welcome! Fork this repository, make your changes, and submit a pull request.
+
+If you encounter any issues or have suggestions for improvements, please open an issue.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
